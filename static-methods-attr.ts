@@ -4,7 +4,7 @@
 
 class Requestor {
   // url: string; // This way, everytime we create a new Requestor instance, we will save in memory this URL.
-  static url: string = 'https://codigofacilito.com';
+  static url: string = 'https://google.com';
   // To solve this issue, we use static attributes, they are owned by the class, not by the instances.
 
   // Static methods: They are accessible calling the class without instantiating it.
